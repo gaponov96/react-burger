@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1280px;
 }
 .selectMenu {
     display: flex;
@@ -9,4 +10,3 @@
     align-items: center;
     
 }
-

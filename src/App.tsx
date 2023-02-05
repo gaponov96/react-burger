@@ -222,12 +222,13 @@ function App() {
   };
   return (
     <div className="App">
-      <div className='header'><AppHeader/></div>
-      <div className='main'>
-      <BurgerIngredients/>
-      <BurgerConstructor/>
-      </div>
+    <div className='header'><AppHeader/></div>
+    <div className='ingredients'>
+    <BurgerIngredients/>
     </div>
+    <div className='constructor'><BurgerConstructor /></div>
+    <div className='footer'></div>
+  </div>
   );
 }
 

@@ -1,23 +1,23 @@
 .App {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 10vw 30vw 10vw;
+  grid-template-rows: 10vh 80vh 10vh;
   grid-gap: 1em;
 }
 
-.header {
+.header, footer {
   grid-column: 1 / span 2;
 }
 
 /* Demo Specific Styles */
 .App {
   margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
+  max-width: 1920px;
 }
 
 .header,
-.main {
+.ingredients,
+.constructor {
   display: flex;
   align-items: center;
   justify-content: center;

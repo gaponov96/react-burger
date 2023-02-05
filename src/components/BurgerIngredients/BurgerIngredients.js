@@ -1,19 +1,17 @@
 import {Tab} from '@ya.praktikum/react-developer-burger-ui-components';
-import css from './burgresingredients.module.css';
+import style from './burgresingredients.module.css';
 
 export function BurgerIngredients() {
     return (
-        <div className={css.column}>
+        <div className={style.column}>
             <p className="text text_type_main-large">
                 Соберите бургер
             </p>
-            <div className={css.fl}>
+            <div className={style.tabName}>
                 <Tab>Булки</Tab>
                 <Tab>Начинки</Tab>
                 <Tab>Соусы</Tab>
             </div>
-
-
         </div>
     );
 }

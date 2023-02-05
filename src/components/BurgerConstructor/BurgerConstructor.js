@@ -1,11 +1,11 @@
 import { Button, ConstructorElement} from '@ya.praktikum/react-developer-burger-ui-components';
-import css from './burgerconstructor.module.css';
+import style from './burgerconstructor.module.css';
 import headerLogo from '../../images/bun-02.png';
 
 export function BurgerConstructor() {
     return (
         <div>
-            <div>
+            <div className={style.addB}>
                 Переместите сюда ингредиент для добавления в заказ
             </div>
                 <div className="ml-15">
